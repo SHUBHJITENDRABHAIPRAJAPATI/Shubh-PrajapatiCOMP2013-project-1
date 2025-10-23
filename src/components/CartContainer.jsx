@@ -5,8 +5,8 @@ import CartCard from "./CartCard";
  cartItems: array of cart item objects
  onRemove: function(id)
  onUpdateQty: function(id, newQty)
- onEmpty: function()
- onSave: function() - save cart to localStorage
+ onEmpty: function():it will make cart
+ onSave: function() - save cart 
 */
 export default function CartContainer({
   cartItems,
@@ -15,12 +15,12 @@ export default function CartContainer({
   onEmpty,
   onSave,
 }) {
-  // build cart listings using forEach to match professor's code style
+  // build cart listings
   if (!cartItems || cartItems.length === 0) {
     return (
       <div className="CartContainer">
         <p>No items in the cart.</p>
-        <div style={{ marginTop: "1rem" }}>
+        <div>
           <button onClick={onSave}>Save Cart</button>
         </div>
       </div>
@@ -56,8 +56,8 @@ export default function CartContainer({
         <button id="BuyButton">Buy (${total.toFixed(2)})</button>
       </div>
 
-      <div style={{ marginTop: "1rem" }}>
-        {/* Save button: professor asked for onclick to save data */}
+      <div >
+        {}
         <button onClick={onSave}>Save Cart</button>
       </div>
     </div>

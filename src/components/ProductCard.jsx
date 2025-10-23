@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import QuantityCounter from "./QuantityCounter";
 
 /*
-          product: the single product object from data
-          onAdd: function(productObj, qty) called when user clicks Add to Cart
+          product: the single product object from data,it show single product for asspcontainr file
+          onAdd: function(productObj, qty) called when user clicks Add it will add items to cart
 */
 export default function ProductCard({ product, onAdd }) {
   
