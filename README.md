@@ -52,7 +52,7 @@ I mostly used the **onClick** function everywhere instead of any advanced hooks.
 This keeps it very simple.  
 ---
 
-### 🧠 Extra Approaches I Tried 
+### Extra Approaches I Tried 
 Even though not all were required, I explored and tested a few different ways:
 1. **LocalStorage Saving (not included in final)**  
    I first tried saving and loading the cart using localStorage, it worked but not perfectly.  
@@ -73,7 +73,7 @@ even though it threw some errors at times.
 
 ---
 
-### 🧾 Conclusion
+### Conclusion
 This project was a great learning experience for me. It helped me understand how React works in real examples.
 
 Here are some key takeaways from this project:
