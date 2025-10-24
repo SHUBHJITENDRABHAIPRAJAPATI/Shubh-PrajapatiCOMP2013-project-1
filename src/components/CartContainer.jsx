@@ -3,8 +3,8 @@ import CartCard from "./CartCard";
 
 /*
  cartItems: array of cart item objects
- onRemove: function(id)
- onUpdateQty: function(id, newQty)
+ onRemove: function(id):
+ onUpdateQty: function(id, newQty):for updating qty in cart
  onEmpty: function():it will make cart
  onSave: function() - save cart 
 */
